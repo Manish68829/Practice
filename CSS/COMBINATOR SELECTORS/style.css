@@ -1,0 +1,41 @@
+/* descendent selector */
+
+div p{
+    color: blue; font-weight: 200;
+}
+
+
+ul li{
+    color: cyan; background-color: burlywood;
+}
+
+/* pseudo class seletor */
+.btn{
+    color: brown;
+    background-color: chartreuse;
+   
+    border-radius: 15px;
+    
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: bisque;
+    cursor: pointer;
+
+}
+
+#btn:{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+    }
+
+    #btn:hover{
+        background-color: yellow;
+        color: black;
+        border-radius: 30px;
+        border: none;
+    }

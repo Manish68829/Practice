@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>HTML form</h1>
+    <form action="#" method="POST"></form>
+    <div class="formFields">
+        <div class="labelControl"><label for="email">Email Address:-</label></div>
+        <input class="formControl" type="email" placeholder="type your email here">
+    </div><br>
+    <div  class="formFields">
+        <div class="labelControl"><label for="name">Full Name</label></div>
+        <input class="formControl" type="text" name="fname" placeholder="enter your first name">
+        <input class="formControl" type="text" name="lname" placeholder="enter your last name">
+
+    </div><br>
+    <div  class="formFields">
+        <div class="labelControl"><label for="address">Address</label></div>
+        <input class="formControl" type="text" placeholder="Street Address"><br>
+        <input class="formControl" type="text" placeholder="office">
+    </div><br>
+    <div  class="formFields">
+        <div class="labelControl"><label for="city">City</label></div>
+        <input class="formControl" type="text" name="city">
+        <select name="state" id="state">
+            <option value="delhi">Delhi</option>
+            <option value="haryana">Haryana</option>
+            <option value="uttar pradesh">Uttar Pradesh</option>
+            <option value="rajasthan">Rajasthan</option>
+        </select>
+        <input class="formControl" type="number">
+    </div><br>
+    <div  class="formFields">
+        <div><label for="question">What radio technologies are you using?</label></div>
+        <input class="formControl" type="checkbox" name="net">2G
+        <input class="formControl" type="checkbox" name="net">3G
+        <input class="formControl" type="checkbox" name="net">4G
+        <input class="formControl" type="checkbox" name="net">5G
+    </div>
+    <div  class="formFields">
+        <div><label for="question">How much data do you use in a month?</label></div>
+        <input class="formControl" type="radio" name="net">1GB
+        <input class="formControl" type="radio" name="net">3GB
+        <input class="formControl" type="radio" name="net">5GB
+        <input class="formControl" type="radio" name="net">10GB
+    </div>
+    <div  class="formFields">
+        <div><label for="subscription">Subscription Duration</label></div>
+        <input class="formControl" type="datetime-local">
+    </div><br>
+    <div  class="formFields">
+        <div><label for="identity">Upload original id proof</label></div>
+        <input class="formControl" type="file">
+        <!-- <input class="formControl" type="file">PAN Card -->
+
+    </div><br>
+
+    <div  class="formFields">
+        <input class="btn" type="submit" value="Submit">
+        <input class="btn" type="reset" value="Reset">
+    </div>
+</body>
+
+</html>

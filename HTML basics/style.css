@@ -1,0 +1,57 @@
+body {
+    font-family: lato, sans-serif;
+}
+
+.formControl {
+    width: 25%;
+    height: 26px;
+    border-radius: 6px;
+    border: none;
+    /* border: 1px solid #ddd;  */
+    box-shadow: rgba(red, green, blue, alpha);
+    background-color: lavenderblush;
+    padding: 0px 11px;
+    
+    
+}
+.formControl:focus{
+    outline: none;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#state {
+
+    width: 25%;
+    height: 32px;
+}
+
+.labelControl {
+    font-size: small;
+    font-weight: lighter;
+    margin: 5px 0px;
+}
+
+.formFields{
+    padding: 10px;
+}
+
+/* taggeting an attribute */
+input[type="submit"],input[type="reset"]{
+    font-family: lato;
+}
+
+#state{
+    font-family: lato;
+}
+
+.btn{
+    width: 9%;
+height: 30px;
+background-color: lightcyan;
+border-radius: 24px;
+border: ;
+margin: 0px,19px;
+margin: 0px 18px;
+color: black;
+
+}
